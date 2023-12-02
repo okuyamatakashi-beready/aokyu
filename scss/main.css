@@ -684,7 +684,7 @@ main {
 @media screen and (max-width: 768px) {
   #about > img.about_bg {
     width: 50%;
-    top: -22%;
+    top: -24%;
   }
 }
 #about > img.flt_img01 {
