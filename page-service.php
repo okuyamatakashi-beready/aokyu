@@ -105,6 +105,7 @@
                 新規事業の計画進行中！<br>
                 青久商店の展開にご期待ください
             </b>
+            <img src="<?php echo get_template_directory_uri(); ?>/images/works_logo.svg" alt="" class="continued_bg">
         </div>
     </div>
     <!-- //container -->

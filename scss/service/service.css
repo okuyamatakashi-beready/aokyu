@@ -132,11 +132,27 @@ h2.long_line b {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 14rem;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .demolition_list .continued {
+    z-index: 100;
+    padding-bottom: 60px;
+  }
+  .demolition_list .continued img {
+    width: 70%;
+  }
 }
 .demolition_list .continued b {
   display: block;
   font-size: 16px;
   margin-top: 3rem;
+}
+.demolition_list .continued img.continued_bg {
+  width: 35%;
+  position: absolute;
+  top: -15%;
+  right: -11%;
 }
 
 .service_slider {
@@ -157,6 +173,11 @@ h2.long_line b {
   border-right-color: transparent;
   z-index: 5;
 }
+@media screen and (max-width: 768px) {
+  .service_slider::before {
+    border-bottom: 150px solid #EFEFEF;
+  }
+}
 .service_slider .slick-list {
   z-index: 10;
 }
@@ -174,4 +195,9 @@ h2.long_line b {
   border-right-style: solid;
   border-right-color: transparent;
   z-index: 5;
+}
+@media screen and (max-width: 768px) {
+  #contact::before {
+    border-bottom: 150px solid #EFEFEF;
+  }
 }/*# sourceMappingURL=service.css.map */

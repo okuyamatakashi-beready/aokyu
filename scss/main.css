@@ -658,22 +658,6 @@ main {
     margin-top: 100px;
   }
 }
-#about::before {
-  content: "";
-  position: absolute;
-  bottom: -33%;
-  height: 0;
-  width: 0;
-  border-top: 300px solid transparent;
-  border-bottom: 0px solid transparent;
-  border-left: 98vw solid #fff;
-}
-@media screen and (max-width: 768px) {
-  #about::before {
-    border-top: 100px solid transparent;
-    border-bottom: 130px solid transparent;
-  }
-}
 #about .about_container {
   width: 88.4666%;
   margin-left: auto;
@@ -722,6 +706,7 @@ main {
   #about > img.flt_img02 {
     right: 5%;
     bottom: -17%;
+    z-index: 10;
   }
 }
 #about > img.flt_img03 {
@@ -746,6 +731,24 @@ main {
   background: #fff;
   margin-top: 11.6%;
   padding-bottom: 12rem;
+  position: relative;
+}
+#service::before {
+  content: "";
+  position: absolute;
+  top: -300px;
+  height: 0;
+  width: 0;
+  border-top: 300px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 98vw solid #fff;
+}
+@media screen and (max-width: 768px) {
+  #service::before {
+    border-top: 100px solid transparent;
+    border-bottom: 130px solid transparent;
+    top: -100px;
+  }
 }
 @media screen and (max-width: 768px) {
   #service {

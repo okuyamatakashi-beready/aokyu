@@ -127,13 +127,28 @@ h2.long_line {
         text-align: center;
         padding-top: 40px;
         padding-bottom: 14rem;
+        position: relative;
+        @media screen and (max-width: 768px) {
+            z-index: 100;
+            padding-bottom: 60px;
+            img {
+                width: 70%;
+            }
+        }
         b {
             display: block;
             font-size: 16px;
             margin-top: 3rem;
         }
+        img.continued_bg {
+            width: 35%;
+            position: absolute;
+            top: -15%;
+            right: -11%;
+        }
     }
 }
+
 .service_slider {
     position: relative;
     padding-bottom: 30rem;
@@ -150,6 +165,9 @@ h2.long_line {
         border-right-style: solid;
         border-right-color: transparent;
         z-index: 5;
+        @media screen and (max-width: 768px) {
+            border-bottom: 150px solid #EFEFEF;
+        }
     }
     .slick-list {
         z-index: 10;
@@ -168,4 +186,7 @@ h2.long_line {
     border-right-style: solid;
     border-right-color: transparent;
     z-index: 5;
+    @media screen and (max-width: 768px) {
+        border-bottom: 150px solid #EFEFEF;
+    }
 }
