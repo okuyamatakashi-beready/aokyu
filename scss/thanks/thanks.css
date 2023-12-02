@@ -1,0 +1,228 @@
+.contact_wrap {
+  margin-top: 6rem;
+  padding-bottom: 0;
+}
+.contact_wrap .contact_tel {
+  text-align: center;
+}
+.contact_wrap img {
+  margin: 60px auto;
+}
+@media screen and (max-width: 768px) {
+  .contact_wrap img {
+    width: 80%;
+  }
+}
+.contact_wrap > p {
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+@media screen and (max-width: 768px) {
+  .contact_wrap > p {
+    font-size: 13px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+}
+.contact_wrap .contact_container {
+  width: 900px;
+  margin: auto;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 7rem 10rem;
+}
+@media screen and (max-width: 768px) {
+  .contact_wrap .contact_container {
+    width: 90%;
+  }
+}
+.contact_wrap .contact_container dl {
+  margin-bottom: 4rem;
+}
+@media screen and (max-width: 768px) {
+  .contact_wrap .contact_container dl {
+    margin-bottom: 30px;
+  }
+}
+.contact_wrap .contact_container dl:nth-of-type(4) dd {
+  font-size: 14px;
+}
+.contact_wrap .contact_container dl:nth-of-type(4) dd p {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .contact_wrap .contact_container dl:nth-of-type(4) dd {
+    font-size: 13px;
+  }
+}
+.contact_wrap .contact_container dl:nth-of-type(4) dd input {
+  width: 186px;
+}
+.contact_wrap .contact_container dl dt {
+  font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  .contact_wrap .contact_container dl dt {
+    font-size: 14px;
+  }
+}
+.contact_wrap .contact_container dl dt span {
+  color: #E14449;
+  font-size: 13px;
+}
+.contact_wrap .contact_container dl dd p {
+  font-size: 16px;
+  background: #F1F1F1;
+  padding: 12px 30px;
+  margin-top: 8px;
+}
+@media screen and (max-width: 768px) {
+  .contact_wrap .contact_container dl dd p {
+    font-size: 13px;
+    padding: 6px 15px;
+  }
+}
+.contact_wrap .contact_container dl dd input, .contact_wrap .contact_container dl dd select, .contact_wrap .contact_container dl dd textarea {
+  background-color: #F1F1F1;
+  box-sizing: border-box;
+  padding: 12px 30px;
+  font-size: 14px;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+}
+.contact_wrap .contact_container dl dd ::-webkit-input-placeholder { /* Webkit browsers */
+  color: #ABABAB;
+}
+.contact_wrap .contact_container dl dd ::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #ABABAB;
+}
+.contact_wrap .contact_container dl dd :-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #ABABAB;
+}
+.contact_wrap .contact_container dl dd :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #ABABAB;
+}
+.contact_wrap .contact_container .policy {
+  background: #E6E6E6;
+  box-sizing: border-box;
+  padding: 24px 20px;
+  margin-bottom: 5rem;
+}
+.contact_wrap .contact_container .policy span {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px;
+}
+.contact_wrap .contact_container .policy span span {
+  color: #E14449;
+  display: inline;
+}
+.contact_wrap .contact_container .policy span span.wpcf7-acceptance span {
+  color: #000;
+}
+.contact_wrap .contact_container .policy div {
+  height: 130px;
+  overflow: scroll;
+  font-size: 14px;
+  line-height: 1.7;
+  background-color: #fff;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.contact_wrap .contact_container .send_message p {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.7;
+}
+.contact_wrap .contact_container .send_message input.send {
+  width: 364px;
+  text-align: center;
+  color: #fff;
+  margin: 30px auto 0 auto;
+  border-radius: 50px;
+  background: #E14449;
+  display: block;
+  font-size: clamp(18px, 2rem, 21px);
+  padding: 20px 0;
+  font-weight: normal;
+  position: relative;
+}
+.contact_wrap .contact_container .send_message input.send::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 0 7px 12px;
+  border-color: transparent transparent transparent #ffffff;
+  position: absolute;
+  top: 25%;
+  right: 20px;
+}
+@media screen and (max-width: 768px) {
+  .contact_wrap .contact_container .send_message input.send::after {
+    border-width: 4px 0 4px 9px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact_wrap .contact_container .send_message input.send {
+    width: 100%;
+    font-size: 13px;
+  }
+}
+.thanks_wrap {
+  background-color: #fff;
+  padding: 10rem 0;
+  margin-bottom: 6rem;
+}
+@media screen and (max-width: 768px) {
+  .thanks_wrap {
+    padding: 60px 0;
+    margin-bottom: 60px;
+    margin-top: 0px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.thanks_wrap .contact_tel {
+  text-align: center;
+}
+.thanks_wrap img {
+  margin: 60px auto 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .thanks_wrap img {
+    width: 80%;
+  }
+}
+.thanks_wrap strong {
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-bottom: 60px;
+}
+@media screen and (max-width: 768px) {
+  .thanks_wrap strong {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+}
+.thanks_wrap p {
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+}
+
+footer::before {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .page_mv .page_mv_container .ttl_wrap h2.sec_ttl div {
+    top: -180%;
+  }
+}/*# sourceMappingURL=thanks.css.map */

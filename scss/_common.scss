@@ -1,0 +1,189 @@
+@use "config/variables" as v;
+
+@media screen and (max-width: 768px) {
+    body {
+        padding-top: 60px;
+    }
+}
+
+.flex {
+    @include v.flex;
+}
+
+.min_container {
+    @include v.min;
+}
+.container {
+    width: 1020px;
+    margin: 0 auto;
+    @media screen and (max-width: 768px) {
+        width: 82.4%;
+    }
+}
+
+br.sp {
+    display: none;
+}
+br.pc {
+    display: block;
+}
+.pc {
+    display: block;
+}
+.pc_flex {
+    display: flex;
+}
+.sp {
+    display: none!important;
+}
+
+
+/*********************************
+	下層ページ共通
+*********************************/
+.page_mv {
+    margin-top: 76px;
+    @media screen and (max-width: 768px) {
+        margin-top: 0;
+    }
+    .page_mv_container {
+        position: relative;
+        width: 93.66%;
+        margin-left: auto;
+        @media screen and (max-width: 768px) {
+            width: 83.5%;
+        }
+        figure {
+            position: absolute;
+            right: 0;
+            top: -10%;
+            width: 54%;
+            @media screen and (max-width: 768px) {
+                width: 75%;
+                top: 10%;
+            }
+            img {
+                width: 100%;
+            }
+        }
+        .ttl_wrap {
+            width: 95%;
+            margin: 0 auto 0 0;
+            background-color: #fff;
+            padding-top: 23%;
+            box-sizing: border-box;
+            padding-left: 6rem;
+            padding-bottom: 5rem;
+
+            @media screen and (max-width: 768px) {
+                width: 100%;
+                padding-bottom: 30px;
+                padding-top: 70%;
+            }
+            h2.sec_ttl {
+                div {
+                    right: auto;
+                    top: -100%;
+                    @media screen and (max-width: 768px) {
+                        top: -130%;
+                        bottom: auto;
+                        left: 6%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.service_slider {
+    position: relative;
+    z-index: 40;
+    img {
+        width: 100%;
+    }
+}
+#contact {
+    background-color: #fff;
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 50rem;
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        height: 0;
+        width: 0;
+        border-top: 0px solid #fff;
+        border-bottom: 300px solid #fff;
+        border-right: 100vw solid transparent;
+        @media screen and (max-width: 768px) {
+            border-top: 0px solid #fff;
+            border-bottom: 120px solid #fff;
+        }
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.7em;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        @media screen and (max-width: 768px) {
+            font-size: 14px;
+            margin-left: 40px;
+        }
+    }
+    .flex {
+        width: 90%;
+        margin-left: auto;
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+        img {
+            width: 45%;
+            @media screen and (max-width: 768px) {
+                width: 100%;
+                margin-top: 30px;
+            }
+        }
+    }
+    @media screen and (max-width: 768px) {
+        h2.sec_ttl div {
+            left: 0;
+            right: auto;
+            bottom: -220%;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .fixed_btn_sp {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 5000;
+        width: 100%;
+        a {
+            width: 50%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .pc {
+        display: none!important;
+    }
+    .sp {
+        display: block!important;
+    }
+
+    .order_1 {
+        order: 2;
+    }
+    .order_2 {
+        order: 1;
+    }
+    br.sp {
+        display: block;
+    }
+
+}

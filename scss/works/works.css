@@ -1,0 +1,80 @@
+ul.works_list {
+  margin-top: 6rem;
+  margin-bottom: 60rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  ul.works_list {
+    margin-top: 80px;
+  }
+}
+ul.works_list > li {
+  width: 31%;
+  margin-bottom: 8rem;
+}
+@media screen and (max-width: 768px) {
+  ul.works_list > li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+ul.works_list .works_thumb {
+  height: 274px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+  ul.works_list .works_thumb {
+    height: 200px;
+  }
+}
+ul.works_list a {
+  color: #333;
+}
+ul.works_list a time {
+  color: #004272;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 768px) {
+  ul.works_list a time {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+ul.works_list a h3 {
+  font-size: clamp(16px, 1.8rem, 2rem);
+}
+@media screen and (max-width: 768px) {
+  ul.works_list a h3 {
+    font-size: 15px;
+  }
+}
+ul.works_list ul.cat_list {
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ul.works_list ul.cat_list li {
+  margin-right: 20px;
+}
+ul.works_list ul.cat_list li a {
+  border: 1px solid #004272;
+  color: #004272;
+  font-size: 12px;
+  text-align: center;
+  padding: 8px 2px;
+}
+@media screen and (max-width: 768px) {
+  ul.works_list ul.cat_list li a {
+    font-size: 12px;
+    padding: 4px 4px;
+  }
+}
+ul.works_list ul.cat_list li:last-child {
+  margin-right: 0;
+}/*# sourceMappingURL=works.css.map */
