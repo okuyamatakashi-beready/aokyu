@@ -24,6 +24,23 @@
 	<div class="scroll_bar"></div>
 </div>
 
+<section id="philosophy">
+	<div class="container">
+		<h2 class="sec_ttl">
+			<strong>PHILOSOPHY</strong>
+			<div><span>経営理念</span></div>
+		</h2>
+
+		<div class="sec_content">
+			<b>
+				青久商店は事業を通じて<span>挑戦</span>と<span>探究</span>を継続することで<br class="pc">
+				ニーズに寄り添える付加価値を見出し地域社会に貢献しながら<br class="pc">
+				お客様を含めた自身に関わるすべての人の<span>人生を豊かに</span>する
+			</b>
+		</div>
+	</div>
+</section>
+
 <section id="about">
 	<img src="<?php echo get_template_directory_uri(); ?>/images/circle.svg" alt="" class="flt_img01">
 	<img src="<?php echo get_template_directory_uri(); ?>/images/circle.svg" alt="" class="flt_img02">

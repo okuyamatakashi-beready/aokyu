@@ -126,6 +126,7 @@ a.common_btn {
     font-weight: normal;
     transform: skew(-20deg);
     position: relative;
+    z-index: 50;
     @media screen and (max-width: 768px) {
         width: 100%;
         font-size: 13px;
@@ -418,6 +419,30 @@ main {
 @media screen and (max-width: 768px) {
     
 }
+
+/*********************************
+	PHILOSOPHY
+*********************************/
+#philosophy {
+    padding: 60px 0 100px 0;
+    .container {
+        width: 88.4666%;
+        margin-left: auto;
+        margin-right: 0;
+        @media screen and (max-width: 768px) {
+            width: 82.4%;
+            margin-right: auto;
+            h2.sec_ttl {
+                strong {
+                    font-size: 42px;
+                }
+
+            }
+        }
+        
+    }
+}
+
 
 /*********************************
 	about
